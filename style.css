@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Orbitron', sans-serif !important;
+    transition: background 2s linear;
 }
 h3 {
     font-size: 2rem !important;
@@ -14,5 +15,15 @@ h3 {
 }
 #countdown {
     font-size: 13rem;
+}
+#color{
+    margin: 10% 25% 0 25%;
+    transform: translate(50%);
+    width: 350px;
+    text-align: center;
+    background: #333;
+    color: #EEE;
+    font-size: 1.5rem;
+    border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
